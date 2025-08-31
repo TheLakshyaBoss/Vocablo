@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fb;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 450px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+
+.search-box {
+    display: flex;
+    gap: 0.5rem;
+}
+
+input {
+    flex: 1;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #554ed8;
+}
+
+.result {
+    margin-top: 1rem;
+}
+
+.word {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.phonetic {
+    color: #555;
+    margin: 0.3rem 0;
+}
+
+.meaning {
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 1rem;
+}
